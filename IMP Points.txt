@@ -1,0 +1,24 @@
+Create a Virtual Environment:
+
+1. python -m venv env
+2. Move Directory to .\env\Scripts\activate
+3. activate
+
+cls - Clear Screen
+
+
+
+Install Packages on Virtual Environment:
+
+1. pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
+
+
+2. python -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn; print(f'jupyter: {jupyter.__version__}\nmatplotlib: {matplotlib.__version__}\nnumpy: {numpy.__version__}\npandas: {pandas.__version__}\nscipy: {scipy.__version__}\nsklearn: {sklearn.__version__}')"
+
+// Check for Installed Packages and Versions 
+
+
+For Deleting the VENV
+
+cd C:\path\to\your\project
+rmdir /s env
